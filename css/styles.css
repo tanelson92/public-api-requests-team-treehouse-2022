@@ -2,7 +2,7 @@
    Public API Request
 ======================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
 
 * {
 	box-sizing: border-box;
@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     background: rgba(235, 235, 235, 0.9);
 }
@@ -88,6 +88,7 @@ header h1 {
     background: rgba(245, 245, 245, 0.9);
     border-radius: 0.25em;
     border: 1px solid rgba(50, 50, 50, 0.3);
+    box-shadow: none;
     transition: .4s ease-out;
     overflow: hidden;
 }
@@ -128,7 +129,7 @@ header h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(106, 139, 208, 0.7);
 }
 
 .modal {
@@ -246,6 +247,7 @@ header h1 {
     .card:hover {
         background: rgba(255, 255, 255, 1);
         border: 1px solid rgba(50, 50, 50, 0.9);
+        box-shadow: 0 0 15px rgb(106 139 208);
     }
 
     .card:hover .card-text {
